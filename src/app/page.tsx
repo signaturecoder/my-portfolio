@@ -11,6 +11,9 @@ const stack = [
   "Micro-frontends",
   "Accessibility",
   "Core-Web Vitals",
+  "Semantic HTML",
+  "CSS3",
+  "JavaScript"
 ];
 
 const outcomes = [

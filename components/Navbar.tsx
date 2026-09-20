@@ -38,6 +38,11 @@ export const Navbar = () => {
             GitHub
           </a>
         </li>
+        <li>
+          <a href="https://hashnode.com/@signatureblogger" target="_blank" rel="noreferrer" className="px-5 py-2 rounded-full border border-white/15 hover:bg-white/10 tracking-[0.14em] uppercase text-xs text-[var(--text)]">
+            Blog
+          </a>
+        </li>
       </ul>
 
       {open && (
@@ -61,6 +66,15 @@ export const Navbar = () => {
               onClick={() => setOpen(false)}
             >
               GitHub
+            </a>
+            <a
+              href="https://hashnode.com/@signatureblogger"
+              target="_blank"
+              rel="noreferrer"
+              className="mt-1 px-3 py-2 rounded-lg bg-white text-black text-xs tracking-[0.12em] uppercase"
+              onClick={() => setOpen(false)}
+            >
+              Blog
             </a>
           </div>
         </div>
